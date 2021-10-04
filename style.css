@@ -27,8 +27,10 @@
     width:80%;
     margin-left: 5%;
     margin-top: 40px;
+    cursor: pointer;
     
 }
+
 .half-width h1{
     line-height: 80px;
     font-size:50px;
@@ -43,7 +45,14 @@
     color: #fff;
     display:inline-block;
     margin-top: 30px;
+    transition: 0.5s;
 }
+
+.button:hover{
+    box-shadow: 0px 0px 10px 0px #777;
+
+}
+
 
 .header{
     background-image: url(images/header-bg.png);
@@ -102,8 +111,14 @@ section{
     border-radius: 5px;
     margin-top: 30px;
     color: #fff;
- 
+    transition: 0.5s;
 }
+
+.bio-button:hover{
+    box-shadow: 0px 0px 20px 0px #777;
+}
+
+
 
 .latest-work{
     background-image: url(images/latest-work-bg.png);
@@ -127,7 +142,15 @@ section{
 .pictures img{
     width: 350px;
     margin-left: 6%;
+    transition: 0.5s;
+    border-radius: 20px;
+    cursor: pointer;
 }
+
+.pictures img:hover{
+    box-shadow: 0px 0px 10px 0px #777;
+}
+
 
 .latest-lighlight{
     color:#EC596D;
@@ -170,6 +193,11 @@ section{
     background: linear-gradient(45deg,#51E489,#07a343);
     color: #fff;
     border-radius: 10px;
+    transition: 0.5s;
+}
+
+.footer a:hover{
+    box-shadow: 0px 0px 10px 0px #777;
 }
 
 
